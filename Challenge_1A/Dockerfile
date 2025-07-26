@@ -6,5 +6,4 @@ COPY . .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-ENTRYPOINT ["python", "main.py"]
-
+CMD ["python", "process_pdfs.py"]
